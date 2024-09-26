@@ -16,7 +16,6 @@ exports.subcatagoryCreate = async function (req, res, next) {
   }
 }
 
-
 exports.subcatagoryFind = async function (req, res, next) {
   try {
     if (req.query.search) {
