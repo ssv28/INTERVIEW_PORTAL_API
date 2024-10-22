@@ -74,6 +74,3 @@ exports.adminLogin = async function (req, res, next) {
   }
 }
 
-
-
-
