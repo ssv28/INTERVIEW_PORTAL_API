@@ -13,7 +13,7 @@ exports.Sequre = async function (req, res, next) {
     // let verify = jwt.verify(token, "INTERVIEW")
     let decode = jwt.verify(token,process.env.adminSequre)
 
-    console.log(verify);
+    console.log(decode);
     let AdminVerify = await ADMIN.findById(decode.id)
 
     // let AdminVerify = await ADMIN.findById(verify.id)
